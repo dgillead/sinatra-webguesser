@@ -1,5 +1,7 @@
 require 'sinatra'
 
+
+rand_num = rand(0..100)
 get '/' do
-  'Hello, World!'
+  puts rand_num
 end
